@@ -13,7 +13,7 @@ class LoginSystem extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
           brightness: Brightness.light,
-        primarySwatch:MaterialColor(0xFFFFE),
+        //primarySwatch:MaterialColor(0xFFFFE200),
       ),
       darkTheme: ThemeData(brightness: Brightness.dark),
       themeMode: ThemeMode.system,
