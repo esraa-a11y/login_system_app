@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:login_system_app/constants/sizes.dart';
+
+import '../../../widgets/forget_password_model_bottom_sheet.dart';
+import '../../../widgets/forget_password_widget.dart';
 class LoadingForm extends StatelessWidget {
   const LoadingForm({
     super.key,
@@ -42,6 +46,7 @@ class LoadingForm extends StatelessWidget {
               alignment: Alignment.centerRight,
               child: TextButton(
                 onPressed: (){
+                  ForgetPasswordScreen.buildShowModalBottomSheet(context);
                 },
                 child: Text('Forget Password'),
               ),
@@ -53,4 +58,6 @@ class LoadingForm extends StatelessWidget {
         ),
       ),);
   }
+
 }
+
