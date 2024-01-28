@@ -22,7 +22,7 @@ class SignUpScreen extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                FormHeaderWidget(image: tWelcomeScreenImage, title: 'Get on Board !', subTitle: 'create your profile to start your journey ', heightBetween: 0,),
+                FormHeaderWidget(image: tWelcomeScreenImage, title: 'Get on Board !', subTitle: 'create your profile to start your journey ', heightBetween: 0, crossAxisAlignment: CrossAxisAlignment.start,),
                 SignUpFormWidget(),
                 Column(children: [
                 Text('OR'),

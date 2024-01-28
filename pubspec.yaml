@@ -29,6 +29,7 @@ dependencies:
   get: ^4.6.6
   liquid_swipe: ^3.0.0
   smooth_page_indicator: ^1.0.0+2
+  flutter_otp_text_field: ^1.1.1
 
 flutter_native_splash:
   color: "#f7f6f1"
